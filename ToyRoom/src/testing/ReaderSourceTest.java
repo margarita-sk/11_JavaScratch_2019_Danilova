@@ -15,8 +15,8 @@ import service.Factory;
 import sources.ReaderSource;
 
 class ReaderSourceTest {
-	File file = new File("D:\\workspace\\HomeworkPart4\\text_small.txt");
-	File wrongFile = new File("D:\\workspace\\HomeworkPart4\\wrong_small.txt");
+	File file = new File("D:\\workspace\\HomeworkPart4\\data_toys\\text_small.txt");
+	File wrongFile = new File("D:\\workspace\\HomeworkPart4\\data_toys\\wrong_small.txt");
 	ArrayList<Toy> expectedToys = new ArrayList<Toy>();
 
 	@Test

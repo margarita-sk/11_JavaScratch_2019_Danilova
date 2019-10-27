@@ -19,7 +19,7 @@ public class MenuService {
 
 	public static final Logger LOGGER = Logger.getLogger(MenuService.class);
 
-	static File file = new File("D:\\workspace\\HomeworkPart4\\text.txt");
+	static File file = new File("D:\\workspace\\HomeworkPart4\\data_toys\\text.txt");
 	Scanner scanner = new Scanner(System.in);
 	private ToyRoom room;
 
